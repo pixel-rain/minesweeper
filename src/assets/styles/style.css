@@ -1,0 +1,153 @@
+body {
+  margin-top: 30px;
+}
+
+button {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 5px 2px 5px;
+  background-color: whitesmoke;
+}
+
+button:active {
+  border: 2px solid;
+}
+
+button:focus, select:focus {
+  outline: none;
+}
+
+.cell {
+  width: 27px;
+  height: 27px;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small {
+  width: 251px; /*cell * 9 + 8*/
+  height: 337px; /*cell * 9 + 3 + 91*/
+}
+
+.medium {
+  width: 447px; /*cell * 16 + 15*/
+  height: 533px; /*cell * 16 + 10 + 91*/  
+}
+
+.big {
+  width: 839px; /*cell * 30 + 29*/
+  height: 533px; /*cell * 16 + 10 + 91*/   
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.counter {
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  width: 50px;
+}
+
+.difficulty-small {
+  width: 70px;
+}
+
+.hide {
+  display: none;
+}
+
+.text-space {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#main-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: whitesmoke;
+  border: 1px solid;
+  user-select: none;
+}
+
+#control-box {
+  height: 91px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#field-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  position: relative;
+}
+
+#restart {
+  cursor: pointer;
+  text-align: center;
+}
+
+#status {
+  font-size: 25px;
+}
+
+#difficulty {
+  border: 1px solid;
+}
+
+#spacer {
+  width: 45px;
+}
+
+#upper-row {
+  padding-top: 5px;
+}
+
+#bottom-row {
+  flex: 1;
+}
+
+#records {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background: whitesmoke;
+}
+
+#records-text {
+  overflow-y: auto;
+  padding: 0 5px 0 5px;
+  height: 100%;
+}
+
+#show-records-button {
+  width: 105px;
+}
+
+#clear-records-button {
+  width: 100px;
+}
+
+#clear-records-button:active {
+  margin: -1px 0 -1px 0;
+}
+
+#records-themselves {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#records-title {
+  margin-top: 10px;
+}
+  
