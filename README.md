@@ -1,24 +1,7 @@
-# minesweeper
+A clone of Minsweeper written in Vue. It's a no-backend app that uses localStorage to save the best game scores.
 
-## Project setup
-```
-npm install
-```
+It currently runs on https://pixel-rain.github.io/minesweeper/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+It's a Vue-CLI version of the original app that I have developed on Codepen.io, it's Codepen version is in another repository https://github.com/pixel-rain/codepen-and-other-minor-stuff/tree/master/vue-minesweeper
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+As a Vue-CLI project it follows the usual commands: 'npm run serve' to launch it in the development mode and 'npm run build' to build the app for production.
