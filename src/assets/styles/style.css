@@ -73,6 +73,7 @@ button:focus, select:focus {
   background-color: whitesmoke;
   border: 1px solid;
   user-select: none;
+  height: 100%;
 }
 
 #control-box {
